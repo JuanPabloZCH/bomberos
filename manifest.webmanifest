@@ -1,0 +1,51 @@
+{
+  "name": "CGBVP · Preparación 2026 — Banco de 200 preguntas",
+  "short_name": "CGBVP 2026",
+  "description": "Plataforma de estudio y simulacros basada íntegramente en el Banco de 200 preguntas para ascensos 2026 del CGBVP.",
+  "lang": "es-PE",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080d12",
+  "theme_color": "#0a0f14",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Practicar",
+      "short_name": "Practicar",
+      "description": "Configurar una práctica guiada",
+      "url": "./index.html#/practicar",
+      "icons": [{ "src": "assets/icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Simulacro",
+      "short_name": "Simulacro",
+      "description": "Iniciar un simulacro cronometrado",
+      "url": "./index.html#/simulacro",
+      "icons": [{ "src": "assets/icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Banco de preguntas",
+      "short_name": "Banco",
+      "description": "Consultar las 200 preguntas",
+      "url": "./index.html#/banco",
+      "icons": [{ "src": "assets/icons/app-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}

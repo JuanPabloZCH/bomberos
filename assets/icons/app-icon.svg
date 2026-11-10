@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CGBVP Preparación 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15222e"/>
+      <stop offset="0.55" stop-color="#0c151d"/>
+      <stop offset="1" stop-color="#080d12"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="0.45" stop-color="#ff6a3d"/>
+      <stop offset="1" stop-color="#e5372a"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6a3d"/>
+      <stop offset="1" stop-color="#b8221a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#e5372a" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#e5372a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="232" r="176" fill="url(#glow)"/>
+
+  <path d="M256 66 406 121v132c0 94-63 153-150 197-87-44-150-103-150-197V121z"
+        fill="#0f1821" stroke="url(#shield)" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M256 96 382 143v108c0 76-51 127-126 167-75-40-126-91-126-167V143z"
+        fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="4"/>
+
+  <g transform="translate(112 132) scale(12)" fill="none" stroke="url(#flame)" stroke-width="2.1"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+  </g>
+
+  <path d="M196 430h120" stroke="rgba(255,255,255,0.22)" stroke-width="6" stroke-linecap="round"/>
+</svg>
